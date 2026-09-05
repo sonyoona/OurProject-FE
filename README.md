@@ -116,7 +116,6 @@ src/
 ```bash
 # 1. 의존성 설치
 npm install
-npm install @reduxjs/toolkit bootstrap   # package.json에 누락되어 별도 설치 필요
 
 # 2. 백엔드 기동 (localhost:8080)
 #    https://github.com/sonyoona/OurProject-BE 참고
@@ -125,5 +124,4 @@ npm install @reduxjs/toolkit bootstrap   # package.json에 누락되어 별도 �
 npm run dev
 ```
 
-> `@reduxjs/toolkit`(`store/userSlice.js`)과 `bootstrap`(`App.jsx`의 CSS import)이
-> 코드에서는 쓰이지만 `package.json`에는 빠져 있습니다. 위 명령으로 함께 설치해야 실행됩니다.
+프로덕션 빌드는 `npm run build`, 빌드 결과 확인은 `npm run preview`입니다.
